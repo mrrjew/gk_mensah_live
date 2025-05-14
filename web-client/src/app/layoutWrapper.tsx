@@ -11,11 +11,11 @@ export default function LayoutWrapper({
   children: React.ReactNode;
 }) {
   const path = usePathname();
-  const [hideDefaultLayout, setHideDefaultLayoute] = React.useState(false);
+  const [hideDefaultLayout, setHideDefaultLayout] = React.useState(false);
 
   React.useEffect(() => {
     const isPathAddListing = path.split("/").includes("add-listing");
-    setHideDefaultLayoute(isPathAddListing);
+    setHideDefaultLayout(isPathAddListing);
   }, [path]);
 
   return (

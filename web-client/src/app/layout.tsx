@@ -1,12 +1,7 @@
 import { Poppins } from "next/font/google";
-import SiteHeader from "@/app/(client-components)/(Header)/SiteHeader";
-import Footer from "@/components/Footer";
-// import ReactQueryClientProvider from "@/components/ReactQueryClientProvider";
-import ReduxProvider from "@/store/providers";
 import "@/styles/index.scss";
 import "rc-slider/assets/index.css";
 import "./globals.css";
-// import ReactQueryClientProvider from "@/components/ReactQueryClientProvider";
 import LayoutWrapper from "./layoutWrapper";
 
 const poppins = Poppins({
@@ -17,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "PaceDream - The best place to find your hotel",
-  description: "The best place to find your hotel",
+  title: "G.K Mensah Live - The best place to find spiritual knowledge",
+  description: "The best place to find God's word for your life",
 };
 
 export default function RootLayout({
