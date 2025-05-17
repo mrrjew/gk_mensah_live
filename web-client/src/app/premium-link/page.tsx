@@ -22,7 +22,7 @@ export default function PremiumLink() {
                 </p>
               </div>
 
-              <div className="my-6 flex max-sm:flex-col items-center">
+              <div className="my-6 flex max-sm:`flex-col items-center">
                 <div className="block flex items-center w-full h-max text-wrap rounded-md bg-white px-3 py-3.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                   Copy link <FiArrowUpRight />
                 </div>
