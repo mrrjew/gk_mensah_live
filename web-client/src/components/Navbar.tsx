@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   return (
     <header className="bg-white">
@@ -97,12 +97,14 @@ export default function Navbar() {
                 className="h-8 w-auto"
               />
             </a>
-            <a
-              href="#"
-              className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Sign up
-            </a>
+            {!isLoggedIn && (
+              <a
+                href="#"
+                className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Sign up
+              </a>
+            )}
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -130,7 +132,7 @@ export default function Navbar() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Log in
+                  {isLoggedIn ? "Log out" : "Log in"}
                 </a>
               </div>
             </div>
