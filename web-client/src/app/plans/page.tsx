@@ -18,7 +18,7 @@ export default function Plans() {
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">
-          Choose an affordable plan that{"/’"}s packed with the best features for
+          Choose an affordable plan that{"/'"}s packed with the best features for
           your engagement with the Prophet of God.
         </p>
         <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">

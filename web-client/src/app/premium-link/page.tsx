@@ -116,7 +116,7 @@ export default function PremiumLink() {
 
                 <button
                   onClick={openLinkInBrowser}
-                  className="w-full block flex bg-indigo-600/90 items-center w-full h-max text-wrap rounded-md bg-white px-3 py-1.5 text-base text-white bg-sm:text-sm/6"
+                  className="w-full block flex bg-indigo-600/90 items-center w-full h-max text-wrap rounded-md px-3 py-1.5 text-base text-white bg-indigo-600/90 bg-sm:text-sm/6"
                 >
                   <p className="flex items-center">
                     <HiMiniArrowTopRightOnSquare className="mr-2" /> Visit
