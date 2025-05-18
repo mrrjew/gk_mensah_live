@@ -1,4 +1,4 @@
-import { ListingGalleryImage } from "@/components/listing-image-gallery/utils/types";
+// import { ListingGalleryImage } from "@/components/listing-image-gallery/utils/types";
 
 export const PHOTOS: string[] = [
   "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
@@ -29,11 +29,11 @@ export const includes_demo = [
   { name: "Halong Bay Entrance Ticket" },
 ];
 
-export const imageGallery: ListingGalleryImage[] = [...PHOTOS].map(
-  (item, index): ListingGalleryImage => {
-    return {
-      id: index,
-      url: item,
-    };
-  },
-);
+// export const imageGallery: ListingGalleryImage[] = [...PHOTOS].map(
+//   (item, index): ListingGalleryImage => {
+//     return {
+//       id: index,
+//       url: item,
+//     };
+//   },
+// );

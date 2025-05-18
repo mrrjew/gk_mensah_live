@@ -1,6 +1,6 @@
 "use client";
 
-import { NAVIGATION_DEMO } from "@/data/navigation";
+import { NAVIGATION } from "@/data/navigation";
 import ButtonClose from "@/shared/ButtonClose";
 import ButtonPrimary from "@/shared/ButtonPrimary";
 import Logo from "@/shared/Logo";
@@ -18,7 +18,7 @@ export interface NavMobileProps {
 }
 
 const NavMobile: React.FC<NavMobileProps> = ({
-  data = NAVIGATION_DEMO,
+  data = NAVIGATION,
   onClickClose,
 }) => {
   const _renderMenuChild = (item: NavItemType) => {
